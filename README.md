@@ -5,7 +5,7 @@ Group project for UCB Data analytics course
 - We will be using a variy of different data sets (links below). __Note to team Please add the links to any other data sets that you use to this list.__
     * https://archive.ics.uci.edu/ml/datasets/heart+disease - Database of heart diease by biological factors
     * https://www.cdc.gov/heartdisease/facts.htm - Database of heart diease by biological factors
-    * https://www.kaggle.com/shivamb/netflix-shows - Database of heart diease by biological factors
+    * https://www.kaggle.com/andrewmvd/heart-failure-clinical-data?select=heart_failure_clinical_records_dataset.csv - Database of heart failure clinical records dataset.
 - The team hopes to show what factors can come together to create a greater chance of heart diease. We would like to exspand out into enviormental factors later in the project.
 
 ## Machine Learning Summary
