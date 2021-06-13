@@ -6,9 +6,9 @@ For this project, our group will be using AWS as we'll be able to connect via th
 
 Main components of the DataBase will include:
   - ERD Model
-    - Sample ERD Model (<3 ERD MODEL)[add link]
+    - Sample ERD Model [<3_ERD_MODEL](add link)
   - Schema for tables we'll create 
-    - Sample Schema's (<3 Schema's)[add link]
+    - Sample Schema's [<3_Schema's](add link)
 
 Data Sets include but not limited to:
   - ADD FILES
