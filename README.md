@@ -29,8 +29,10 @@ Main components of the DataBase will include:
   - ERD Model
     - Sample ERD Model [Heart_ERD_MODEL]( )
   - Schema for tables we'll create 
-    - Sample Schema's [Heart_Schema's]( )
+    - Sample Schema's [Heart_Schema's](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/JP_Branch/DataBase%20Schemas/Heart_Schema.sql )
 
 Data Sets include but not limited to:
-  - ADD FILES
-  - ADD FILES
+  - cdc_stats.csv
+  - heart_attack_patients.csv
+  - heart_falure_patients.csv
+  - O2Saturation
