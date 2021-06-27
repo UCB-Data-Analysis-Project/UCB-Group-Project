@@ -7,8 +7,10 @@ Machine Learning algorithms we plan on using:
 
 - Logistic Regression (Scikit-learn)
 - Naive Bayes (Scikit-learn)
-- Support Vector Machine (Linear) (Scikit-learn)
-- K-Nearest Neighbours (Scikit-learn)
-- Decision Tree (Scikit-learn)
-- Random Forest (Scikit-learn)
+- Random Forest (Scikit-learn - still thinking about this one)
 - Artificial Neural Network with 1 Hidden layer (Keras)
+
+### Analyzing the 'target' varibale 
+The 'target' variable has values of '0' and '1'. After conducting a correleation check within the columns, we can determine that most of the columns asre correlated with the target, except for the 'fbs' column a shown below:
+
+
