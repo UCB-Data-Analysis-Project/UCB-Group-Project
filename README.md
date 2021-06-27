@@ -11,7 +11,7 @@ Machine Learning algorithms we plan on using:
 - Artificial Neural Network with 1 Hidden layer (Keras)
 
 ### Analyzing the 'target' variable 
-The 'target' variable has values of '0' and '1'. The target variable determines patients with and without heart problems. After conducting a correleation check within the columns, we can determine that most of the columns asre correlated with the target, except for the 'fbs' column a shown below:
+The 'target' variable has values of '0' and '1'. The target variable determines patients with and without heart problems. After conducting a correlation check within the columns, we can determine that most of the columns are correlated with the target, except for the 'fbs' column a shown below:
 
 ![correlation_columns](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/correlation_columns.png)
 
