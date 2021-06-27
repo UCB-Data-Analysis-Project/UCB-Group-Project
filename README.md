@@ -17,11 +17,17 @@ Machine Learning algorithms we plan on using:
 
 - Logistic Regression (Scikit-learn)
 - Naive Bayes (Scikit-learn)
-- Support Vector Machine (Linear) (Scikit-learn)
-- K-Nearest Neighbours (Scikit-learn)
-- Decision Tree (Scikit-learn)
-- Random Forest (Scikit-learn)
+- Random Forest (Scikit-learn - still thinking about this one)
 - Artificial Neural Network with 1 Hidden layer (Keras)
+
+### Analyzing the 'target' variable 
+The 'target' variable has values of '0' and '1'. The target variable determines patients with and without heart problems. After conducting a correlation check within the columns, we can determine that most of the columns are correlated with the target, except for the 'fbs' column a shown below:
+
+![correlation_columns](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/correlation_columns.png)
+
+After train-test splitting the data, we fit the model and used the algorithms to generate the following output scores:
+
+![output_scores](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/output_scores.png)
 ## Database Summary
 For this project, our group will be using AWS as we'll be able to connect via the cloud. In doing so, I'll be setting up a Postgres engine using AWS's relational database service (RDS) named "The_Heart_Files". AWS S3 will be our main storage for our files and images for our projects. Additional bucket will be created if need. An ERD model will also be created to connect our datasets to each other and eventually merge into different subset tables. In doing so, we'll be able to connect the 14 biological attributes of cardiovascular disease with other valuable data such as socio-economic status, diets, CDC guidelines, physical attivity, etc. The goal is to have this linked with our machine leraning model so we can create our interactive dashboard for users.
 
