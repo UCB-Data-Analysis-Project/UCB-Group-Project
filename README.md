@@ -42,3 +42,36 @@ Data Sets include but not limited to:
   - heart_attack_patients.csv
   - heart_falure_patients.csv
   - O2Saturation
+
+## Dashboard
+What to include:
+  - At Least one input boxes for:
+    - Age
+    - Ethnicity
+    - Physical activity level
+    - Box for other critical factors such as High Blood pressure, cholesterol
+  
+  - Interactive models such as that changes once inputted:
+    - Age VS Heart Attack 
+    - Ethnic Group vs Age
+    - Risk Model that categorizes user as High, Mod, & Low Risk
+  
+  - Most Importantly:
+    - Information to educate the public
+    - General Information on how Physical Activity promotes and helps lower risk
+    - Guidelines (Food pyramid, ACSM’s Guidelines to promote a healthy life
+    - Links to websites and articles  to help educate the population about the CVD and Heart Attack
+
+  - Technology to be used:
+    - Bootstrap/ CSS
+    - JavaScript
+    - HTML
+
+  - We’ll be refactoring the files used in the Bacteria.github.io project 
+    - HTML code example [HTML](https://github.com/josafathpelayo/Bacteria.github.io/blob/main/index.html)
+    - JavaScript code example [JavaScript](https://github.com/josafathpelayo/Bacteria.github.io/blob/main/static/js/charts.js)
+ 
+## Presentation
+Our Presentation can be accessed by clicking the following link to our google slide.
+  - Google Slides [Google_slides](https://docs.google.com/presentation/d/1WX6MUs0cq7g9G2EG6IdcGtv79HahPKi21lpuY_8xx34/edit?usp=sharing)
+ 
