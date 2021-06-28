@@ -71,8 +71,8 @@ Create Table Socio_Economic_Demographic(
 
 
 Total_Deaths(
-    CensusTractName_x VARCHAR,
-    DisplayText_x VARCHAR,
+    CensusTractName_x Text,
+    DisplayText_x Text,
     Key INTEGER ,
     ParentText_x VACHAR,
     ThemeRangeId_x INTEGER,
