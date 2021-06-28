@@ -35,15 +35,10 @@ For this project, our group will be using AWS as we'll be able to connect via th
 
 Main components of the DataBase will include:
   - ERD Model
-    - Sample ERD Model [Heart_ERD_MODEL]( )
-  - Schema for tables we'll create 
+    - Sample ERD Model [Heart_ERD_MODEL](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/main/DataBase%20Schemas/ERD.png)
+  - Schema for tables we'll create and at least one join from our tables
     - Sample Schema's [Heart_Schema's](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/JP_Branch/DataBase%20Schemas/Heart_Schema.sql )
 
-Data Sets include but not limited to:
-  - cdc_stats.csv
-  - heart_attack_patients.csv
-  - heart_falure_patients.csv
-  - O2Saturation
 
 ## Dashboard
 What to include:
