@@ -36,5 +36,53 @@ Create Table  cdc_stats(
     Perc_of_Death FLOAT,
     Men_Perc FLOAT,
     Women_Perc FLOAT
-)
+);
 
+Create Table Demographic(
+    CensusTractName_x TEXT,
+    DisplayText_x Text,
+    Key INT, 
+    ParentText_x Text,
+    ThemeRangeId_x INT,
+    Percent_of_Black_Population INT,
+    Percent_of_Native_American_Population INT,
+    Percent_of_White_Population INT,
+    Percent_of_Hispanic_Latino_Population INT,
+    Percent_of_Asian_Pacific_Islander_Population INT,
+    Percent_of_Retired_Population INT
+);
+
+Create Table Socio_Economic_Demographic(
+   CensusTractName_x TEXT,
+    DisplayText_x Text,
+    Key INT, 
+    ParentText_x Text,
+    ThemeRangeId_x INT,
+    Percent_of_Population_with_lessthan_Highschool_education INT,
+    Percent_of_Population_with_less_than_College_Education INT,
+    Percent_of_Female-Headed_households INT,
+    Percent_of_Population_on_Food_Stamps_SNAP INT,
+    Median_Home_Value INT,
+    Median_Household_Income INT,
+    Income_Inequality_using_the_Gini_Index INT,
+    Percent_of_the_population_below_the_poverty_line INT,
+    Unemployment_Rate INT
+);
+
+
+Total_Deaths(
+    CensusTractName_x VARCHAR,
+    DisplayText_x VARCHAR,
+    Key INTEGER ,
+    ParentText_x VACHAR,
+    ThemeRangeId_x INTEGER,
+    Total_Cardiovascular_Disease_Deaths INT,
+    Total_Cardiovascular_Disease_Hospitalizations INT,
+    Total_Cardiovascular_Disease_Hospital_Discharge_Status INT,
+    Total_Heart_Disease_Deaths INT,
+    Total_Heart_Disease_Hospitalizations INT,
+    Total_Heart_Disease_Hospital_Discharge_Status INT
+    Total_Heart_Attack_Deaths INT,
+    Total_Heart_Attack_Hospitalizations INT,
+    Total_Heart_Attack_Hospital_Discharge_Status INT
+);
