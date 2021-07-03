@@ -1,0 +1,205 @@
+ <!--Make the guage according to this link https://www.cssscript.com/creating-fast-and-responsive-gauges-with-pure-css/ -->
+
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Heart Attack Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="sheet.css">
+  <style>
+      body {
+          background-color: rgb(224, 229, 233);
+      }
+  </style>
+
+  <script>
+      function calc() {
+
+          var demo = document.getElementById("demo").value;
+          var gender = document.getElementById("gender").value;
+          var res = 0;
+          var death = 0;
+
+
+          if (demo == 'a') {
+              if (gender == 'm') {
+                  res = 19.4;
+              } else {
+                  res = 17;
+              }
+              death = 18.3;
+          }
+          if (demo == 'b') {
+              if (gender == 'm') {
+                  res = 22.9;
+              } else {
+                  res = 19.9;
+              }
+              death = 21.4;
+          }
+          if (demo == 'c') {
+              if (gender == 'm') {
+                  res = 23.9;
+              } else {
+                  res = 23.1;
+              }
+              death = 23.5;
+          }
+          if (demo == 'd') {
+              if (gender == 'm') {
+                  res = 24.9;
+              } else {
+                  res = 22.5;
+              }
+              death = 23.7;
+          }
+          if (demo == 'e') {
+              if (gender == 'm') {
+                  res = 20.6;
+              } else {
+                  res = 19.9;
+              }
+              death = 20.3;
+          }
+          if (demo == 'f') {
+              if (gender == 'm') {
+                  res = 24.4;
+              } else {
+                  res = 22.3;
+              }
+              death = 23.4;
+          }
+          document.getElementById("death").innerHTML = res;
+      }
+  </script>
+
+  <style id="plotly.js-style-global"></style></head><body>
+      <h1 class="text-center" style="color:black"> Heart Attack Analysis</h1>
+      <h3 class="text-center" style="color:rgb(205, 60, 50)"> Josafath P, Ramya M, Kushali S, Dyson S| Data Storyteller</h3>
+      <div class="jumbotron">
+          <!--<div class="text-left">
+              <div style="background-image: url(heart.jpg);
+    background-size: cover; height : 360px;padding-top:80px ;"> -->
+      </div>
+      <div>
+          <p>
+              </p><h3>Background Overview </h3>
+              <br>
+              <span class="li"> Heart disease is the leading cause of death for people of most racial and ethnic groups in the United States, including African American, American Indian, Alaska Native, Hispanic, and white men.</span>
+              <br>
+              <span class="li"> For women from the Pacific Islands and Asian American, American Indian, Alaska Native, and Hispanic women, heart disease is second only to cancer. </span>
+              <br>
+              <span class="li">One person dies every 37 seconds just in the United States alone from cardiovascular disease. </span>
+              <br>
+              <span class="li">About 647,000 Americans die from heart disease each year—that's 1 in every 4 deaths.<br> Heart disease costs the United States about $219 billion each year from 2014 to 2015. This includes the cost of health care services, medicines, and lost
+              productivity due to death.</span>
+          <p></p>
+      </div>
+      <br>
+      <h3 class="text-center">SELECT YOUR ETHNICITY &amp; GENDER TO VIEW YOUR PROBABLITY OF DEATH WITH A HEART ATTACK</h3>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h3 class="panel-title">Demographic Info</h3>
+                  </div>
+                  <div id="sample-metadata" class="panel-body">Ethnicity:
+                      <select name="demo" id="demo">
+            <option value="a">American Indian or Alaska Native</option>
+             <option value="b">Asian American or Pacific Islander</option>
+               <option value="c">Black (Non-Hispanic)</option>
+               <option value="d">White (Non-Hispanic</option>
+               <option value="e">Hispanic</option>
+               <option value="f">Other</option>
+            </select>
+                  </div>
+
+                  <div id="sample-metadata" class="panel-body">Gender:
+                      <select name="gender" id="gender" onchange="calc()">
+             <option value="0">Select</option>      
+            <option value="m">Men</option>
+             <option value="w">Women</option>       
+               </select>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="panel panel-primary">
+                      <div class="panel-heading">
+                          <h3 class="panel-title">Probablity % of death</h3>
+                      </div>
+                      <div class="col-md-3">
+                          <div id="bar">
+                              <div class="well">
+                                  <h5>Percentage of Death:<span id="death"></span> </h5>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div id="gauge"></div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div style="color:yellowgreen" class="col-md-12">
+                      <div id="bubble"></div>
+                  </div>
+              </div>
+              <h1 class="text-center">Risk Startification Scoring Chart</h1>
+              <div class="row">
+                  <div class="col-md-12">
+                      <img alt="Risk Stratification" src="Risk Stratification.png" class="center">
+                      <p> Photo credit: </p>
+
+                  </div>
+              </div>
+              <h1 class="text-center">ACSM Risk Startification Screening Classification</h1>
+              <div class="row">
+                  <div class="col-md-12">
+                      <br>
+                      <img alt="Credit: Risk Stratification Chart" src="Risk Stratification chart.png" class="center" width="850">
+                      <p> Photo credit: </p>
+                  </div>
+              </div>
+              <h1 class="text-center">ACSM Risk Startification Flowchart</h1>
+              <div class="row">
+                  <div class="col-md-12">
+                      <br>
+                      <img alt="Credit: Risk Stratification Flow Chart" src="flowchart.png" class="center" width="850">
+                      <p> Photo credit: </p>
+                  </div>
+              </div>
+              <div>
+                  <style>
+                      .footer {
+                          position: relative;
+                          left: 0;
+                          bottom: 0;
+                          width: 100%;
+                          background-color: #ffc400;
+                          color: rgb(8, 7, 7);
+                          text-align: center;
+                      }
+                  </style>
+
+                  <div class="footer">
+                      <p>This project is done for University of California - Berkeley | Data Science bootcamp course | Data &amp; Website developed by Jap P</p>
+                  </div>
+
+              </div>
+
+
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <!-- <script src="plots.js"></script> -->
+              <script src="static\js\charts.js"></script>
+          </div>
+      </div>
+  
+
+
+</body></html>
