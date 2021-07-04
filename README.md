@@ -38,11 +38,11 @@ We used the MinMaxScaler to normalize and train our data. We used the Principle 
 After analyzing our trained data, we dropped reduced some features such as 'tresbps', 'chol', 'fbs' and 'thalach' and ran a second PCA. 
 
 
-### Standardizing the data
+### Standardizing the data with StandardScaler normalization
 
-Since PCA yields a feature subspace that maximizes the variance along the axes, it made sense for us to standardize the data, especially, if because it was measured on different scales. Although, all features in the Iris dataset were measured in centimeters, we continued with the transformation of the data onto a unit scale (mean=0 and variance=1). We believe this should be a requirement for the optimal performance of any machine learning algorithm.
+Since PCA yields a feature subspace that maximizes the variance along the axes, it made sense for us to standardize the data, especially, if because it was measured on different scales. 
 
-After selecting the second PCA, we visualized this in a 2D projection:
+We visualized this in 2D projection:
 
 ![2pca](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/2componentpca.png)
 
