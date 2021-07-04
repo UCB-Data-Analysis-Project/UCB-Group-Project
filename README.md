@@ -20,7 +20,7 @@ We extracted data from the UCI website and analyzed the information regarding th
 
 We wanted to gain important statistical insights from the data. For example, distributions of the different attributes, correlations of the attributes with each other and the target variable. We imported seaborn as sns to view several bar plots of our data. The first step was to check the distribution different attributes and this was best visualized by histograms:
 
-INSERT RAW DATA PNG
+![plot](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/barplots.png)
 
 We went a step futher to check the correlation of the different features with the target variable and with each other as this would not only give a good estimate of the strength of the features as predictors of coronary heart disease but also reveal any co-linearity among the features:
 
