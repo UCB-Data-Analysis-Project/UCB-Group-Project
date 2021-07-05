@@ -49,6 +49,10 @@ We used the MinMaxScaler to normalize and train our data. We used the Principle 
 
 After analyzing our trained data, we dropped reduced some features such as 'tresbps', 'chol', 'fbs' and 'thalach' and ran a second PCA. 
 
+![PCA2](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/main/Images/redufeature.png)
+
+
+From the scatter plot above, we can determine that dropping some features yielded a much better correlation.
 
 ### Standardizing the data
 
@@ -58,7 +62,7 @@ After selecting the second PCA, we visualized this in a 2D projection:
 
 ![2pca](https://github.com/UCB-Data-Analysis-Project/UCB-Group-Project/blob/kshah_branch/Images/2componentpca.png)
 
-From the scatter plot above, we can determine that dropping some features yielded a much better correlation.
+
 
 ### Model development and comparison  
 
