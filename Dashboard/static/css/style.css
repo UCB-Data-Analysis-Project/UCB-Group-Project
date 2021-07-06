@@ -1,0 +1,34 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+.progress {
+	position: relative;
+	width: 210px;
+	height: 30px;
+	background: #9cbab4;
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  .progress__fill {
+	width: 0%;
+	height: 100%;
+	background: #083347;
+	transition: all 0.2s;
+  }
+  
+  .progress__text {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	font: bold 22px "Quicksand", sans-serif;
+	color: #ffffff;
+  }
+
+  body {
+	background-color: rgb(244, 245, 240);
+}
+
+  
