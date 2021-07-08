@@ -1,0 +1,38 @@
+[
+  {
+    "Race_of_Ethnic_Group": "American Indian or Alaska Native",
+    "Perc_ of_Death": 18.3,
+    "Men_ Perc": 19.4,
+    "Women_Perc": 17
+  },
+  {
+    "Race_of_Ethnic_Group": "Asian American or Pacific Islander",
+    "Perc_ of_Death": 21.4,
+    "Men_ Perc": 22.9,
+    "Women_Perc": 19.9
+  },
+  {
+    "Race_of_Ethnic_Group": "Black (Non-Hispanic)",
+    "Perc_ of_Death": 23.5,
+    "Men_ Perc": 23.9,
+    "Women_Perc": 23.1
+  },
+  {
+    "Race_of_Ethnic_Group": "White (Non-Hispanic",
+    "Perc_ of_Death": 23.7,
+    "Men_ Perc": 24.9,
+    "Women_Perc": 22.5
+  },
+  {
+    "Race_of_Ethnic_Group": "Hispanic",
+    "Perc_ of_Death": 20.3,
+    "Men_ Perc": 20.6,
+    "Women_Perc": 19.9
+  },
+  {
+    "Race_of_Ethnic_Group": "All",
+    "Perc_ of_Death": 23.4,
+    "Men_ Perc": 24.4,
+    "Women_Perc": 22.3
+  }
+]

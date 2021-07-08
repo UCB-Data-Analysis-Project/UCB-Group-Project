@@ -1,5 +1,3 @@
- <!--Make the guage according to this link https://www.cssscript.com/creating-fast-and-responsive-gauges-with-pure-css/ -->
-
 <!DOCTYPE html>
 <html lang="en"><head>
 
@@ -8,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Heart Attack Analysis</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="sheet.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <style>
-      body {
-          background-color: rgb(199, 228, 95);
-      }
+      
+
   </style>
+  <div class="container">
+
 
   <script>
       function calc() {
@@ -78,11 +77,11 @@
 
   <style id="plotly.js-style-global"></style></head><body>
       <h1 class="text-center" style="color:black"> Heart Attack Analysis</h1>
-      <h3 class="text-center" style="color:rgb(205, 60, 50)"> Josafath P, Ramya M, Kushali S, Dyson S| Data Storyteller</h3>
+      <h4 class="text-center" style="color:rgb(124, 112, 110)"> Josafath P, Ramya M, Kushali S, Dyson S</h4>
       <div class="jumbotron">
-          <!--<div class="text-left">
-              <div style="background-image: url(heart.jpg);
-    background-size: cover; height : 360px;padding-top:80px ;"> -->
+          <div class="text-left">
+              <div style="background-image: url(heartecg.png);
+    background-size: cover; height : 360px;padding-top:80px ;">
       </div>
       <div>
           <p>
@@ -140,42 +139,40 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-md-3">
-                      <div id="gauge"></div>
+                  <div class="progress">
+                    <div class="progress__fill"></div>
+                    <span class="progress__text">0%</span>
+                    <span id="death"></span>
+                    <div class="well"></div>
+                    </div>
+                    <button onClick="handleClick()">Risk %</button></div>
+                  
+              </div>
                   </div>
               </div>
-              <div class="row">
-                  <div style="color:yellowgreen" class="col-md-12">
-                      <div id="bubble"></div>
-                  </div>
-              </div>
-              <h1 class="text-center">Risk Startification Scoring Chart</h1>
-              <h4 class="text-center">PLease grab a peace of paper and follow these guidline to find your risk stratification score. You only add a point if you meet the critiria for the specific category and HDL is the only postive category that lets you take off a point off your risk starification score.
-                   If you do not know, place a zero for the category. This model is most accurate when if all known subject fields are known.  </h4>
+              <h1 class="text-center">Risk Stratification Scoring Chart</h1>
               <div class="row">
                   <div class="col-md-12">
                       <img alt="Risk Stratification" src="Risk Stratification.png" class="center">
-                      <p> Photo credit: </p>
+                      <p> Photo credit:https://exerciseismedicine.org/assets/page_documents/HCP_Action_Guide(3).pdf </p>
 
                   </div>
               </div>
-              <h1 class="text-center">ACSM Risk Startification Screening Classification</h1>
-              <h4 class="text-center">After you have added all you're possible risk starifications from the chart above, you'll be able to to determine if you're at low, moderate, or high risk. The flow chart below will help you determine of your risk level. Remember, this is based 
-                off ACSM's Guidline for CVD risk stratification classification.These are guideline that medical experts use to determine an action plan to better help patients who seek physical activity to better their overall health </h4>
+              <h1 class="text-center">ACSM Risk Stratification Screening Classification</h1>
               <div class="row">
                   <div class="col-md-12">
                       <br>
                       <img alt="Credit: Risk Stratification Chart" src="Risk Stratification chart.png" class="center" width="850">
-                      <p> Photo credit: </p>
+                      <p> Photo credit:https://exerciseismedicine.org/assets/page_documents/HCP_Action_Guide(3).pdf </p>
                   </div>
               </div>
-              <h1 class="text-center">ACSM Risk Startification Flowchart</h1>
-              <h4 class="text-center">This chart explains the classification of the all risk classification. Please refere to this flow chart at the very end of ompleteing your risk strafification score. </h4>
+              <h1 class="text-center">ACSM Risk Stratification Flowchart</h1>
+              <h2 class="text-center">Stratification Flowchart</h2>
               <div class="row">
                   <div class="col-md-12">
                       <br>
                       <img alt="Credit: Risk Stratification Flow Chart" src="flowchart.png" class="center" width="850">
-                      <p> Photo credit: </p>
+                      <p> Photo credit:https://www.scribd.com/document/422577564/Risk-Stratification-Flowchart-1 </p>
                   </div>
               </div>
               <div>
@@ -192,19 +189,24 @@
                   </style>
 
                   <div class="footer">
-                      <p>This project is done for University of California - Berkeley | Data Science bootcamp course | Data &amp; Website developed by JP, RM, KS, DS</p>
+                      <h4><p>This project is done for University of California, Berkeley | Data Science | Data &amp; Website developed by JP, RM, KS, DS</p></h4>
                   </div>
+                  
 
               </div>
+              <h6><p>Medical Disclaimer: The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment.</p></h6>
 
 
               <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
               <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-              <!-- <script src="plots.js"></script> -->
-              <script src="static\js\charts.js"></script>
+              <!-- <script src="plots.js"></script>  -->
+              <script src="static/js/text.js"></script>
           </div>
       </div>
-  
+    </div>
+</div>
+</div>
 
+</body>
 
-</body></html>
+</html>
