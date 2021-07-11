@@ -115,6 +115,7 @@ What to include:
     - HTML code example [HTML](https://github.com/josafathpelayo/Bacteria.github.io/blob/main/index.html)
     - JavaScript code example [JavaScript](https://github.com/josafathpelayo/Bacteria.github.io/blob/main/static/js/charts.js)
  
+ - [DASHBOARD](https://ucb-data-analysis-project.github.io/UCB-Group-Project/)
 ## Presentation
 Our Presentation can be accessed by clicking the following link to our google slide.
   - Google Slides [Google_slides](https://docs.google.com/presentation/d/1WX6MUs0cq7g9G2EG6IdcGtv79HahPKi21lpuY_8xx34/edit?usp=sharing)
